@@ -1,4 +1,11 @@
-import streamlit as st
+%pip install streamlit
+
+try:
+    import streamlit as st
+except ModuleNotFoundError:
+    print("The 'streamlit' module is not installed. Please install it to run the app.")
+
+st.title("Generative AI Quizz")
 
 # Questions and choices
 questions = {
