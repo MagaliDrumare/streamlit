@@ -79,7 +79,7 @@ correct_answers = {
 
 # Streamlit user interface
 def main():
-    st.title("Generative AI Quizz")
+    st.title("Databricks Generative AI Quizz")
 
     # User responses
     user_answers = {}
